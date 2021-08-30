@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: Roboto;
+    font-size: 2.6vw;
+    margin-left: 0;
+}
+.header img {
+    width: 13.9vw;
+    padding-left: 10vw; /*не уходит влево*/
+}
+.main {
+    width: 100vw;
+    padding-left: 0;
+}
+.date{
+    display: flex;
+    padding-left: 10vw;
+}
+.date img {
+    width: 2.7vw;
+    margin-right:1.3vw;
+}
+.date-info {
+    display: flex;
+    align-items: center;
+    margin-right: 2.6vw;
+}
+h1, h2, h5, h6 {
+    font-family: Roboto Slab;
+}
+h1 {
+    font-size: 9,8vw;
+    margin-bottom: 2.6vw;
+}
+.name {
+    width: 100vw;
+    padding-left: 10vw;
+}
+.name p {
+    margin-top: 0;
+}
+.name-img {
+    margin-left:auto;
+    margin-right: 0px;
+    width: 37.6vw;
+}
+.name-img img{
+    width: 37.6vw;
+}
+
+h2 {
+    font-size: 7vw;
+}
+.about {
+    width: 82.3vw;
+    margin-top: 5%;
+    box-sizing: border-box;
+    padding-left: 10vw;
+}
+.about p {
+    font-size: 3,2vw;
+}
+.men {
+    display: none;
+}
+.about-img {
+    margin-left: 15vw;
+    width:45vw;
+
+}
+.about-info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 55.7vw;
+    box-sizing: border-box;
+}
+h5 {
+    font-size:3,2vw;
+    margin-bottom: 0.5vw;
+}
+
+
+
+.format, .program {
+    margin-top:5%;
+    padding-left: 10vw;
+}
+.format h5 {
+    color: #1E4681;
+    margin-bottom: 0.6vw;
+}
+.format p {
+    margin-top: 0.6vw;
+}
+.format-info {
+    width: 48vw;
+}
+.what-know {
+    margin-top:5%;
+    padding-left: 10vw;
+}
+ul {
+    width: 79.7vw;
+    font-size: 3,2vw;
+}
+
+.program-block {
+    margin-left: 15vw;
+}
+.program-img {
+    width:49.6vw;
+}
+.learned {
+    padding-top: 1%;
+    margin-top:5%;
+    padding-left: 10vw;
+    background-color: #EFEFEF;
+    width: 100vw;
+    height: 600px;  
+}
+
+.learned h2 {
+    width: 68.5vw;
+}
+.learned img {
+    margin-right:5%;
+    width: 82vw;
+}
+.start {
+    padding-top: 2%;
+    background-color: #9DC9C8;
+    width: 100vw; 
+    height: 60vh;  
+    padding-left: 10vw;
+}
+
+.start h2 {
+    width: 59.7vw;
+    margin-bottom: 2%;
+}
+.cost {
+    font-size: 9.8vw;
+    margin-top:0;
+    margin-bottom: 5em;
+}
+.start p {
+    margin-bottom: 0;
+}
+.start-text {
+    font-size: 3,2vw;
+}
+.start-block {
+    display: flex;
+    justify-content: space-between;
+    width: 82vw;
+    margin-top: 2%;
+}
+.foot {
+    background-color: #000000;
+    width: 100vw;
+    height: 40vh;
+    padding-top: 2%;
+    padding-left: 10vw;
+}
+
+.link {
+    margin-top: 1%;
+}
+
+.link img {
+    margin-right: 0.5%;
+    margin-bottom: 4%;
+}
+.sinkh {
+    margin-bottom: 0;
+    margin-top: auto; /*не ушло в конец*/
+}
+
+
+
+@media screen and (min-width:992px) and (max-width:1279px) {
+    .main {
+        min-width: 992px;
+        max-width: 1279px;
+    }
+    .date img {
+        width: 1.5vw;
+        margin-right:1vw;
+    }
+    .date-info {
+        margin-right: 5vw;
+    }
+    .name {
+        width:81vw;
+    }
+    
+    .name-pct {
+        display: flex;
+    }
+    .name-img {
+        width: 21vw;
+        margin: 0 auto;
+    }
+    .name-img img{
+        width: 21vw;
+    }
+    .name-quote {
+        margin-left: 19.5vw;
+        margin-top: 5%;
+    }
+    .about-text {
+        width: 46vw;
+        margin-left: 10vw;
+    }
+    .about-block {
+        display: flex;
+        width: 81vw;
+        justify-content: space-between;
+    }
+    .about-info {
+        
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        width: 81vw;
+        
+    }
+    .about-img {
+        width:21.8vw;
+        margin-left: auto;
+    }
+    .men {
+        display: block;
+        width:16vw;
+    }
+    .format-block {
+        display: flex;
+        width:70vw;
+    }
+    .format-info {
+        width: 20.6vw;
+        margin-right: 6.5vw;
+    }
+    ul {
+        width: 46vw;
+    }
+    .program-block {
+        display: flex;
+        flex-wrap: wrap;
+        width: 88vw;
+        justify-content: space-between;
+        margin-left: 0;
+    }
+    .program-img {
+        width: 27.7vw;
+    }
+    .learned  {
+        height: 80vh;
+    }
+    .learned h2 {
+        width: 90w;
+    }
+    .learned img {
+        width: 35vw;
+    }
+    .start {
+        height: 90vh;/*странне вещи творятся*/
+    }
+    .start h2 {
+        width: 63vw;
+    }
+    .cost {
+        font-size: 5.5vw;
+    }
+    .start-block {
+        width: 44vw;
+    }
+    .start-info {
+        width: 20.4vw;
+    }
+
+    .foot-block {
+        display: flex;
+        justify-content: space-between;
+    }
+    body {
+        font-size: 1.4vw;
+    }
+    h1 {
+        font-size: 5.5vw;
+    }
+    h2 {
+        font-size: 3.2vw;
+    }
+    .about p, h5, ul, .start-text {
+        font-size: 1.7vw;
+    }
+    .link {
+        flex-wrap: nowrap;
+        width: 13.7vw;
+    }
+    .telephone {
+        margin-right: 30vw;
+        margin-left: auto;/*не уходит вправо*/
+    }
+    
+}
+@media (min-width:1280px) {
+    .main {
+        min-width: 1280px;
+    }
+    .date img {
+        width: 1.5vw;
+        margin-right:0.9vw;
+    }
+    .date-info {
+        margin-right: 2.8vw;
+    }
+    .name {
+        width:81vw;
+    }
+    
+    .name-pct {
+        display: flex;
+        width: 74.6vw;
+    }
+    .name-img {
+        width: 21vw;
+        margin: 0 auto;
+    }
+    .name-img img{
+        width: 21vw;
+    }
+    .name-quote {
+        margin-left: 19.5vw;
+        width: 33.6vw;
+        margin-top: 5%;
+    }
+    .about-text {
+        width: 46vw;
+        margin-left: 10vw;
+    }
+    .about-block {
+        display: flex;
+        justify-content: space-between;
+        width: 81vw;
+    }
+    .about-info {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        width: 81vw;
+
+    }
+    .about-img {
+        width:21.8vw;
+        margin-left: auto;
+    }
+    .men {
+        display: block;
+        width:16.1vw;
+    }
+    .format-block {
+        display: flex;
+        justify-content: space-between;
+        width:70vw;
+    }
+    .format-info {
+        width: 20vw;
+        margin-right: 5.6vw;
+    }
+    ul {
+        width: 46vw;
+    }
+    .program-block {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 88.3vw;
+        margin-left: 0;
+    }
+    .program-img {
+        width: 27.7vw;
+    }
+    .learned  {
+        height: 90vh;
+    }
+    .learned h2 {
+        width: 68.5vw;
+    }
+    .learned img {
+        width: 35vw;
+    }
+    .start {
+        height: 90vh;/*странне вещи творятся*/
+    }
+    .start h2 {
+        width: 63vw;
+    }
+    .cost {
+        font-size: 5.5vw;
+    }
+    .start-block {
+        width: 46vw;
+    }
+
+    .foot-block {
+        display: flex;
+        justify-content: space-between;
+    }
+    body {
+        font-size: 1.2vw;
+    }
+    h1 {
+        font-size: 5.5vw;
+    }
+    h2 {
+        font-size: 3.8vw;
+    }
+    .about p, h5, ul, .start-text {
+        font-size: 1.6vw;
+    }
+    .link {
+        flex-wrap: nowrap;
+        width: 14vw;
+    }
+    .telephone {
+        margin-right: 30vw;
+        margin-left: auto;/*не ходит вправо*/
+    }
+}
